@@ -10,8 +10,16 @@ function App() {
         </a>
       </div>
       <h1>Hello Adam</h1>
-      <p>This should update STAGING only. Attempt 2.</p>
-     
+      <div className="content">
+        Here's a CI/CD pipeline with staging and production environments.
+  
+        <p>
+          When a pull request into the main github branch is closed, the staging environment is built and deployed.
+        </p>
+        <p>
+          After testing in stage, you can deploy a release to production by opening a PR from main into the production branch. This triggers the production environment to build and deploy.
+       </p>
+       </div>
     </>
   )
 }
