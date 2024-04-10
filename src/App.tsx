@@ -10,7 +10,7 @@ function App() {
         </a>
       </div>
       <h1>Hello Adam</h1>
-      <p>This should automatically deploy after I pull into main.</p>
+      <p>This should update STAGING only.</p>
      
     </>
   )
