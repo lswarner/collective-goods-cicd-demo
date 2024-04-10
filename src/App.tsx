@@ -9,10 +9,12 @@ function App() {
           <img src='https://www.collectivegoods.com/wp-content/uploads/CG-logo.png' alt="Collective Goods logo" />
         </a>
       </div>
-      <h1>Hello Adam</h1>
+      <h1>Hello Adam & Collective Goods</h1>
       <div className="content">
-        Here's a CI/CD pipeline with staging and production environments. <a href="https://github.com/lswarner/collective-goods-cicd-demo/blob/main/README.md">Learn More</a>.
-  
+        <p>
+          Here's a CI/CD pipeline with staging and production environments. <a href="https://github.com/lswarner/collective-goods-cicd-demo/blob/main/README.md">Learn More</a>
+        </p> 
+
         <p>
           When a pull request into the main github branch is closed, the staging environment is built and deployed.
         </p>
