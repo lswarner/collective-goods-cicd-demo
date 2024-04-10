@@ -11,7 +11,7 @@ function App() {
       </div>
       <h1>Hello Adam</h1>
       <div className="content">
-        Here's a CI/CD pipeline with staging and production environments.
+        Here's a CI/CD pipeline with staging and production environments. <a href="https://github.com/lswarner/collective-goods-cicd-demo/blob/main/README.md">Learn More</a>.
   
         <p>
           When a pull request into the main github branch is closed, the staging environment is built and deployed.
